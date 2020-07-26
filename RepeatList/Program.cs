@@ -20,7 +20,7 @@ namespace RepeatList
                 {
                     test.CanselizationToken = true;
                 }
-                Console.WriteLine(x);
+                Console.WriteLine(i+x);
             }
         }
     }
