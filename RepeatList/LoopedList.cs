@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Text;
 
-namespace RepeatList
+namespace LoopedList
 {
     /// <summary>
     ///  The type of list, that is looped - <para> after last element it gives link to first
@@ -98,7 +98,7 @@ namespace RepeatList
                     Reset();
                     yield break;
                 }
-                if (counter ==  Count - 1)
+                if (counter == Count)
                 {
                     counter = 0;
                 }
